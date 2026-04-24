@@ -1,4 +1,4 @@
-# 🌐 Página Pessoal — Marina Hermógenes Siqueira
+# Página Pessoal — Marina Hermógenes Siqueira
 
 Repositório criado para o **Trabalho Prático 2** da disciplina de **Programação WEB (GAC116)** — 2026/1.
 
@@ -36,7 +36,7 @@ marina.hersiqueira/
     └── script.js              # JavaScript
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 1. Clone o repositório:
    ```bash
@@ -63,7 +63,7 @@ marina.hersiqueira/
 | Bootstrap Icons | 1.11.3 | Ícones |
 | Google Fonts (Inter) | - | Tipografia |
 
-## 👩‍💻 Autora
+## Autora
 
 **Marina Hermógenes Siqueira**  
 Ciência da Computação — UFLA  
