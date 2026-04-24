@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página Pessoal de Marina Hermógenes Siqueira — Versão Bootstrap">
+    <title>Marina H. Siqueira — Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#hero">
+                <span class="brand-gradient">MHS</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interesses">Interesses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                    <a href="../bulma/index.html" class="btn btn-sm btn-outline-secondary rounded-pill px-3" title="Ver versão Bulma">
+                        <i class="bi bi-arrow-left-right me-1"></i>Bulma
+                    </a>
+                    <button class="btn btn-sm btn-theme-toggle rounded-circle" id="themeToggle" title="Alternar tema" aria-label="Alternar tema claro/escuro">
+                        <i class="bi bi-moon-fill" id="themeIcon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section d-flex align-items-center min-vh-100">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container text-center position-relative">
+            <div class="hero-avatar mx-auto mb-4">
+                <div class="avatar-placeholder">
+                    <i class="bi bi-person-fill"></i>
+                </div>
+            </div>
+            <h1 class="hero-title mb-2">
+                Marina Hermógenes<br><span class="text-gradient">Siqueira</span>
+            </h1>
+            <p class="hero-subtitle mb-4">Estudante de Ciência da Computação • UFLA</p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="#sobre" class="btn btn-primary btn-lg rounded-pill px-4 hero-btn">
+                    <i class="bi bi-arrow-down-circle me-2"></i>Saiba mais
+                </a>
+                <a href="#contato" class="btn btn-outline-light btn-lg rounded-pill px-4 hero-btn">
+                    <i class="bi bi-envelope me-2"></i>Contato
+                </a>
+            </div>
+            <div class="hero-scroll-indicator mt-5">
+                <i class="bi bi-chevron-double-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-5 section-about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <span class="section-badge mb-3">👋 Sobre Mim</span>
+                    <h2 class="section-title mb-4">Prazer, me chamo Marina!</h2>
+                    <p class="about-text">
+                        Sou estudante de <strong>Ciência da Computação</strong> na Universidade Federal de Lavras (UFLA). 
+                        Apaixonada por tecnologia, programação e resolução de problemas. Atualmente cursando o período 
+                        em que estou aprofundando meus conhecimentos em desenvolvimento web, estruturas de dados e 
+                        algoritmos.
+                    </p>
+                    <p class="about-text">
+                        Gosto de explorar novas tecnologias e frameworks, sempre buscando aprimorar minhas habilidades 
+                        e contribuir com projetos que possam fazer a diferença. Nas horas vagas, também gosto de jogos, 
+                        música e aprender coisas novas.
+                    </p>
+                    <div class="row g-3 mt-3">
+                        <div class="col-sm-6">
+                            <div class="info-card">
+                                <i class="bi bi-geo-alt-fill text-primary"></i>
+                                <div>
+                                    <small class="text-muted">Localização</small>
+                                    <p class="mb-0 fw-semibold">Lavras, MG</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="info-card">
+                                <i class="bi bi-mortarboard-fill text-primary"></i>
+                                <div>
+                                    <small class="text-muted">Universidade</small>
+                                    <p class="mb-0 fw-semibold">UFLA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="py-5 section-education">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">🎓 Formação</span>
+                <h2 class="section-title mt-3">Formação Acadêmica</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                                    <div>
+                                        <h5 class="fw-bold mb-1">Ciência da Computação</h5>
+                                        <p class="text-primary mb-1">Universidade Federal de Lavras (UFLA)</p>
+                                    </div>
+                                    <span class="badge bg-primary-subtle text-primary rounded-pill px-3">2023 — Atual</span>
+                                </div>
+                                <p class="text-muted mt-2 mb-0">Bacharelado em Ciência da Computação.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                                    <div>
+                                        <h5 class="fw-bold mb-1">Ensino Médio</h5>
+                                        <p class="text-primary mb-1">Conclusão do Ensino Médio</p>
+                                    </div>
+                                    <span class="badge bg-primary-subtle text-primary rounded-pill px-3">2022</span>
+                                </div>
+                                <p class="text-muted mt-2 mb-0">Formação concluída com destaque em todas as disciplinas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="py-5 section-skills">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">💻 Habilidades</span>
+                <h2 class="section-title mt-3">Tecnologias & Ferramentas</h2>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-html"></i>
+                        </div>
+                        <h6 class="fw-bold mt-3">HTML5</h6>
+                        <div class="progress skill-progress mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85">85%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-css"></i>
+                        </div>
+                        <h6 class="fw-bold mt-3">CSS3</h6>
+                        <div class="progress skill-progress mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80">80%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-js"></i>
+                        </div>
+                        <h6 class="fw-bold mt-3">JavaScript</h6>
+                        <div class="progress skill-progress mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70">70%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-py"></i>
+                        </div>
+                        <h6 class="fw-bold mt-3">Python</h6>
+                        <div class="progress skill-progress mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75">75%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-java"></i>
+                        </div>
+                        <h6 class="fw-bold mt-3">Java</h6>
+                        <div class="progress skill-progress mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65">65%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon">
+                            <i class="bi bi-terminal"></i>
+                        </div>
+                        <h6 class="fw-bold mt-3">C++</h6>
+                        <div class="progress skill-progress mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70">70%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon">
+                            <i class="bi bi-git"></i>
+                        </div>
+                        <h6 class="fw-bold mt-3">Git / GitHub</h6>
+                        <div class="progress skill-progress mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75">75%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon">
+                            <i class="bi bi-bootstrap"></i>
+                        </div>
+                        <h6 class="fw-bold mt-3">Bootstrap</h6>
+                        <div class="progress skill-progress mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70">70%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="py-5 section-projects">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">🚀 Projetos</span>
+                <h2 class="section-title mt-3">Meus Projetos</h2>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="project-icon mb-3">
+                                <i class="bi bi-controller"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Club Penguin Jogo da Memória</h5>
+                            <p class="card-text text-muted">Jogo da memória temático do Club Penguin para dois jogadores, desenvolvido com HTML, CSS e JavaScript.</p>
+                            <div class="d-flex gap-2 flex-wrap mt-3">
+                                <span class="badge tech-badge">HTML</span>
+                                <span class="badge tech-badge">CSS</span>
+                                <span class="badge tech-badge">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="https://github.com/marina-hermogenes/Club-Penguin-Jogo-da-Memoria" class="btn btn-sm btn-outline-primary rounded-pill" target="_blank">
+                                <i class="bi bi-github me-1"></i>Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="project-icon mb-3">
+                                <i class="bi bi-person-badge"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Reveste - Brechó online</h5>
+                            <p class="card-text text-muted">Brechó online desenvolvido em grupo para a disciplina de Engenharia de Software.</p>
+                            <div class="d-flex gap-2 flex-wrap mt-3">
+                                <span class="badge tech-badge">HTML</span>
+                                <span class="badge tech-badge">CSS</span>
+                                <span class="badge tech-badge">JS</span>
+                                <span class="badge tech-badge">Bootstrap</span>
+                                <span class="badge tech-badge">Bulma</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="https://github.com/marina-hermogenes/ReVeste" class="btn btn-sm btn-outline-primary rounded-pill" target="_blank">
+                                <i class="bi bi-github me-1"></i>Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="project-icon mb-3">
+                                <i class="bi bi-lightbulb"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Em Desenvolvimento</h5>
+                            <p class="card-text text-muted">Mais projetos em desenvolvimento! Acompanhe meu GitHub para ver novidades e colaborações futuras.</p>
+                            <div class="d-flex gap-2 flex-wrap mt-3">
+                                <span class="badge tech-badge">Em breve</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="https://github.com/marina-hermogenes" class="btn btn-sm btn-outline-primary rounded-pill" target="_blank">
+                                <i class="bi bi-github me-1"></i>GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interesses" class="py-5 section-interests">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">✨ Interesses</span>
+                <h2 class="section-title mt-3">Áreas de Interesse</h2>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="interest-card text-center">
+                        <div class="interest-icon">🌐</div>
+                        <h6 class="fw-semibold mt-2">Desenvolvimento Web</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="interest-card text-center">
+                        <div class="interest-icon">🤖</div>
+                        <h6 class="fw-semibold mt-2">Inteligência Artificial</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="interest-card text-center">
+                        <div class="interest-icon">🎵</div>
+                        <h6 class="fw-semibold mt-2">Música</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="interest-card text-center">
+                        <div class="interest-icon">📚</div>
+                        <h6 class="fw-semibold mt-2">Leitura</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="interest-card text-center">
+                        <div class="interest-icon">🔒</div>
+                        <h6 class="fw-semibold mt-2">Segurança da Informação</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-5 section-contact">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-badge">📬 Contato</span>
+                <h2 class="section-title mt-3">Entre em Contato</h2>
+                <p class="text-muted">Fique à vontade para me enviar uma mensagem!</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-5">
+                    <div class="contact-info-card">
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div>
+                                <small class="text-muted">Email</small>
+                                <p class="mb-0 fw-semibold">marina.hersiqueira@estudante.ufla.br</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="bi bi-github"></i>
+                            </div>
+                            <div>
+                                <small class="text-muted">GitHub</small>
+                                <p class="mb-0"><a href="https://github.com/marina-hermogenes" target="_blank" class="fw-semibold contact-link">marina-hermogenes</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                <small class="text-muted">Localização</small>
+                                <p class="mb-0 fw-semibold">Lavras — Minas Gerais, Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <label for="contactName" class="form-label fw-semibold">Nome</label>
+                            <input type="text" class="form-control" id="contactName" placeholder="Seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label fw-semibold">Email</label>
+                            <input type="email" class="form-control" id="contactEmail" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactMessage" class="form-label fw-semibold">Mensagem</label>
+                            <textarea class="form-control" id="contactMessage" rows="4" placeholder="Sua mensagem..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 rounded-pill py-2">
+                            <i class="bi bi-send me-2"></i>Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center footer-section">
+        <div class="container">
+            <div class="d-flex justify-content-center gap-3 mb-3">
+                <a href="https://github.com/marina-hermogenes" target="_blank" class="footer-social" aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="mailto:marina.hersiqueira@estudante.ufla.br" class="footer-social" aria-label="Email">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+            </div>
+            <p class="mb-1 text-muted small">
+                Desenvolvido com <i class="bi bi-heart-fill text-danger"></i> por Marina H. Siqueira
+            </p>
+            <p class="mb-0 text-muted small">
+                GAC116 — Programação WEB • 2026/1 • <strong>Versão Bootstrap</strong>
+            </p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="btn btn-primary btn-back-to-top rounded-circle" title="Voltar ao topo" aria-label="Voltar ao topo">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
