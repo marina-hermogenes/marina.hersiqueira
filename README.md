@@ -1,13 +1,13 @@
-# Página Pessoal — Marina Hermógenes Siqueira
+# Página Pessoal - Marina Hermógenes Siqueira
 
-Repositório criado para o **Trabalho Prático 2** da disciplina de **Programação WEB (GAC116)** — 2026/1.
+Repositório criado para o **Trabalho Prático 2** da disciplina de **Programação WEB (GAC116)** - 2026/1.
 
 ## Sobre o Projeto
 
 Este projeto consiste em uma **Página Pessoal** desenvolvida com HTML, CSS e JavaScript, contemplando o uso de **dois frameworks CSS distintos** para permitir a comparação entre abordagens de estilização:
 
-- **Versão Bootstrap** — Utiliza o framework [Bootstrap 5](https://getbootstrap.com/) com seu sistema de grid, componentes e utilitários.
-- **Versão Bulma** — Utiliza o framework [Bulma CSS](https://bulma.io/) com sua abordagem modular baseada em Flexbox.
+- **Versão Bootstrap** - Utiliza o framework [Bootstrap 5](https://getbootstrap.com/) com seu sistema de grid, componentes e utilitários.
+- **Versão Bulma** - Utiliza o framework [Bulma CSS](https://bulma.io/) com sua abordagem modular baseada em Flexbox.
 
 ## Funcionalidades
 
@@ -66,6 +66,6 @@ marina.hersiqueira/
 ## Autora
 
 **Marina Hermógenes Siqueira**  
-Ciência da Computação — UFLA  
-📧 marina.hersiqueira@estudante.ufla.br  
+Ciência da Computação - UFLA  
+📧 marina.hersiqueira@gmail.com
 🔗 [GitHub](https://github.com/marina-hermogenes)
